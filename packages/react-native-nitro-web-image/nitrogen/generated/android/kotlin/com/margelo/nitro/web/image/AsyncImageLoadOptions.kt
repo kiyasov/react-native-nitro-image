@@ -29,7 +29,7 @@ data class AsyncImageLoadOptions
     val forceRefresh: Boolean?,
     @DoNotStrip
     @Keep
-    val cacheKey: String?,
+    val cacheKey: StringHolder?,
     @DoNotStrip
     @Keep
     val continueInBackground: Boolean?,
