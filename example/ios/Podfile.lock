@@ -20,7 +20,7 @@ PODS:
   - libwebp/sharpyuv (1.5.0)
   - libwebp/webp (1.5.0):
     - libwebp/sharpyuv
-  - NitroImage (0.9.1):
+  - NitroImage (0.9.2):
     - boost
     - DoubleConversion
     - fast_float
@@ -79,7 +79,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
-  - NitroWebImage (0.9.1):
+  - NitroWebImage (0.9.2):
     - boost
     - DoubleConversion
     - fast_float
@@ -2493,7 +2493,7 @@ DEPENDENCIES:
   - fmt (from `../../node_modules/react-native/third-party-podspecs/fmt.podspec`)
   - glog (from `../../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - hermes-engine (from `../../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
-  - NitroImage (from `../../node_modules/react-native-nitro-image`)
+  - "NitroImage (from `../../node_modules/@kiyasov/react-native-nitro-image`)"
   - NitroModules (from `../../node_modules/react-native-nitro-modules`)
   - "NitroWebImage (from `../../node_modules/@kiyasov/react-native-nitro-web-image`)"
   - RCT-Folly (from `../../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
@@ -2591,7 +2591,7 @@ EXTERNAL SOURCES:
     :podspec: "../../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec"
     :tag: hermes-2025-07-07-RNv0.81.0-e0fc67142ec0763c6b6153ca2bf96df815539782
   NitroImage:
-    :path: "../../node_modules/react-native-nitro-image"
+    :path: "../../node_modules/@kiyasov/react-native-nitro-image"
   NitroModules:
     :path: "../../node_modules/react-native-nitro-modules"
   NitroWebImage:
@@ -2740,9 +2740,9 @@ SPEC CHECKSUMS:
   glog: 5683914934d5b6e4240e497e0f4a3b42d1854183
   hermes-engine: e7491a2038f2618c8cd444ed411a6deb350a3742
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
-  NitroImage: 5ac8b2795c7106d95064d07208ded5b5a3287e62
+  NitroImage: 172c205646b29db25f080b40f26dead2ba4880c1
   NitroModules: d41f6a999e76b7e0766b17486d2aebdeb8a47303
-  NitroWebImage: 3421f3c6c9e8a8dcac3bce72faa9e5c53debdbe4
+  NitroWebImage: cf0609ff5c6c1107ebfb2c2cb43526fe0596a5db
   RCT-Folly: 59ec0ac1f2f39672a0c6e6cecdd39383b764646f
   RCTDeprecation: 0735ab4f6b3ec93a7f98187b5da74d7916e2cf4c
   RCTRequired: 8fcc7801bfc433072287b0f24a662e2816e89d0c
