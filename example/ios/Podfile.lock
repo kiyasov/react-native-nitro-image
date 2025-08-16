@@ -20,7 +20,7 @@ PODS:
   - libwebp/sharpyuv (1.5.0)
   - libwebp/webp (1.5.0):
     - libwebp/sharpyuv
-  - NitroImage (0.6.0):
+  - NitroImage (0.9.0):
     - boost
     - DoubleConversion
     - fast_float
@@ -79,7 +79,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
-  - NitroWebImage (0.6.0):
+  - NitroWebImage (0.9.0):
     - boost
     - DoubleConversion
     - fast_float
@@ -2495,7 +2495,7 @@ DEPENDENCIES:
   - hermes-engine (from `../../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
   - NitroImage (from `../../node_modules/react-native-nitro-image`)
   - NitroModules (from `../../node_modules/react-native-nitro-modules`)
-  - NitroWebImage (from `../../node_modules/react-native-nitro-web-image`)
+  - "NitroWebImage (from `../../node_modules/@kiyasov/react-native-nitro-web-image`)"
   - RCT-Folly (from `../../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTDeprecation (from `../../node_modules/react-native/ReactApple/Libraries/RCTFoundation/RCTDeprecation`)
   - RCTRequired (from `../../node_modules/react-native/Libraries/Required`)
@@ -2595,7 +2595,7 @@ EXTERNAL SOURCES:
   NitroModules:
     :path: "../../node_modules/react-native-nitro-modules"
   NitroWebImage:
-    :path: "../../node_modules/react-native-nitro-web-image"
+    :path: "../../node_modules/@kiyasov/react-native-nitro-web-image"
   RCT-Folly:
     :podspec: "../../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec"
   RCTDeprecation:
@@ -2740,9 +2740,9 @@ SPEC CHECKSUMS:
   glog: 5683914934d5b6e4240e497e0f4a3b42d1854183
   hermes-engine: e7491a2038f2618c8cd444ed411a6deb350a3742
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
-  NitroImage: d91a925dafcca236c8d1df3a727211019a3e2300
+  NitroImage: 7f9b52b16f6e1e3e64d68719d058619e4d0d80e7
   NitroModules: d41f6a999e76b7e0766b17486d2aebdeb8a47303
-  NitroWebImage: dec6c2bac94c47015ccf230893ab3cdc54e47a62
+  NitroWebImage: e1d52f17aae3dd8ab29ba825cebb14ed46f8aa04
   RCT-Folly: 59ec0ac1f2f39672a0c6e6cecdd39383b764646f
   RCTDeprecation: 0735ab4f6b3ec93a7f98187b5da74d7916e2cf4c
   RCTRequired: 8fcc7801bfc433072287b0f24a662e2816e89d0c
