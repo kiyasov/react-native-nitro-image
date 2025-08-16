@@ -20,7 +20,7 @@
     },
     "example": {
       "name": "NitroImageExample",
-      "version": "0.8.0",
+      "version": "0.9.0",
       "dependencies": {
         "@kiyasov/react-native-nitro-web-image": "../packages/react-native-nitro-web-image",
         "@react-navigation/bottom-tabs": "^7.4.6",
@@ -49,7 +49,7 @@
     },
     "packages/react-native-nitro-image": {
       "name": "@kiyasov/react-native-nitro-image",
-      "version": "0.8.0",
+      "version": "0.9.0",
       "devDependencies": {
         "@biomejs/biome": "2.1.1",
         "@types/react": "^19.0.6",
@@ -67,7 +67,7 @@
     },
     "packages/react-native-nitro-web-image": {
       "name": "@kiyasov/react-native-nitro-web-image",
-      "version": "0.8.0",
+      "version": "0.9.0",
       "devDependencies": {
         "@biomejs/biome": "2.1.1",
         "@kiyasov/react-native-nitro-image": "../react-native-nitro-image",
