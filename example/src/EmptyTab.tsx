@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { StyleSheet, Text, TextInput, View } from "react-native";
-import { NitroImage } from "react-native-nitro-image";
+import { NitroImage } from "@kiyasov/react-native-nitro-image";
 
 export function EmptyTab() {
     const [value, setValue] = useState('https://picsum.photos/seed/123/400')
